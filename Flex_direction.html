@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Vertical Alignment</title>
+    <style>
+        .container{
+            border: 2px solid red;
+        }
+        .row{
+            border: 2px solid black;
+        }
+        .pink{
+          background-color: pink;
+        }
+        .orange{
+         background-color: orange;
+        }
+        .blue{
+         background-color: blue;
+        }
+        .green{
+        background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="row flex-row-reverse" style="height:700px">
+         <!-- <div class="row flex-column" style="height:800px"> -->
+         <!-- <div class="row flex-column-reverse" style="height:800px"> -->
+         <!-- <div class="row flex-wrap" style="height:800px"> -->
+         <!-- <div class="row flex-wrap-reverse" style="height:800px"> -->
+         <!-- <div class="row flex-wrap-reverse" style="height:800px"> -->
+       <div class="col-md-3 pink">
+        <h2>col A</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi consectetur quae.</div>
+       <div class="col orange flex-fill"><h2>Col 2</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sed expedita rerum quod nobis odio perferendis? Modi, omnis vel.</div>
+       <div class="col-md-3 blue"><h2>Col 3</h2>Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+       <div class="col-md-3 green"><h2>Col 4</h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At tenetur deleniti magni. Sed totam similique dolorum facere expedita dolore doloribus fugiat ipsum.</div>
+     </div>
+    </div>
+</body>
+</html>
